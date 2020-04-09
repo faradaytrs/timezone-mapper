@@ -1,0 +1,9 @@
+{
+  "name": "timezone-mapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/faradaytrs/timezone-mapper.git",
+  "author": "Andrei izotov <faradaytrs@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
