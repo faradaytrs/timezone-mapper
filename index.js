@@ -12751,3 +12751,5 @@ export const numberToTimezone = (number, approximate = true) => {
     const zones = zone.timezone.split('&');
     return zones.length === 1 || approximate ? zones[0] : zones;
 };
+
+export default numberToTimezone;
