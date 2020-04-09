@@ -12742,7 +12742,7 @@ export const timezones = [
 ].slice().reverse();
 
 export const numberToTimezone = (number, approximate = true) => {
-    const n = (number ?? "").toString().replace(/\D/g, "");
+    const n = `${number}`.replace(/\D/g, "");
     const zone = timezones.find(z => new RegExp(`^${z.number}`).test(n));
     if (zone == null) {
         return zone;
